@@ -6,6 +6,14 @@ This repository contains the design and code for a Level-2 EV Charger designed t
 
 The Level-2 EV Charger designed in this project is capable of drawing power directly from the grid, providing a faster and more efficient charging solution compared to Level-1 chargers. It is designed with a focus on scalability and usability in both residential and commercial settings.
 
+![Block-Diagram](images/block_diag.jpg)
+
+*Figure: Block Diagram of the system.*
+
+![Flow-Chart](images/flow_chart.jpg)
+
+*Figure: Flow Chart of the system.*
+
 ### Features
 
 - **Control Pilot (CP) Signal Management**: Uses an Op-amp circuitry to manage the CP signal for communication between the EVSE and the vehicle.
@@ -22,6 +30,10 @@ The Level-2 EV Charger designed in this project is capable of drawing power dire
 - Voltage divider circuitry for CP voltage monitoring
 - LCD display, push buttons, and standard electric vehicle connector
 
+![PCB](images/PCB.jpg)
+
+*Figure: PCB of the system.*
+
 ## Repository Structure
 
 - `/hardware` - Contains all PCB design files and schematics.
@@ -35,6 +47,13 @@ The Level-2 EV Charger designed in this project is capable of drawing power dire
 2. **Firmware Deployment**: Load the firmware into Atmega 328pb using the provided code in `/firmware`.
 3. **Testing**: Follow the testing procedures described in the documentation to ensure the charger is functioning correctly before full deployment.
 
+![EVSE Hardware](images/evse_hardware.jpg)
+
+*Figure: Assembled EVSE with LCD display and control unit.*
+
+![J1772-connector](images/J1772.jpg)
+
+*Figure: J1772-connector*
 ## Usage
 
 To use the EVSE:
@@ -43,9 +62,7 @@ To use the EVSE:
 3. Use the push button on the unit to start the charging process.
 4. Monitor the charging status through the LCD display.
 
-![EVSE Hardware](images/evse_hardware.jpg)
 
-*Figure: Assembled EVSE with LCD display and control unit.*
 
 
 ## Acknowledgements
